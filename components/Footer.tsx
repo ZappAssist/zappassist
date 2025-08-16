@@ -90,27 +90,6 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-
-          <div>
-            <h4 className="font-semibold text-lg mb-4">Sobre</h4>
-            <ul className="space-y-2">
-              <li>
-                <Link href="#" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                  Quem somos
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                  O que fazemos
-                </Link>
-              </li>
-              <li>
-                <Link href="#" className="text-gray-300 hover:text-white transition-colors cursor-pointer">
-                  Nossa equipe
-                </Link>
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8">

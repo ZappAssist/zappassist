@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 export default function Contact() {
   return (
-    <section id="contato" className="py-20 bg-white">
+    <section id="contato" className="py-16 bg-white">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
             Entre em <span className="text-[#9f60fe]">contato</span>
           </h2>
@@ -16,7 +16,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           <div className="text-center p-8 bg-gray-50 rounded-2xl hover:shadow-lg transition-shadow">
             <div className="w-16 h-16 bg-gradient-to-r from-[#9f60fe] to-[#00e4e3] rounded-full flex items-center justify-center mx-auto mb-6">
               <i className="ri-whatsapp-line text-white text-2xl"></i>
